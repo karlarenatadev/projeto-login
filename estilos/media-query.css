@@ -8,12 +8,13 @@ Large screens and Desktops – 1025px — 1200px
 TV and Extra Large Screens – 1201px and more 
 */
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) { /*configuração para tablet*/
     body {
         background-image: linear-gradient(to top, #F2BF91, #455059);
     }
     section#login {
         width: 80vw;
+        height: 280px;
     }
     section#login > div#imagem {
         float: left;
@@ -32,6 +33,7 @@ TV and Extra Large Screens – 1201px and more
     }
     section#login {
         width: 990px;
+        height: 350px;
 
     }
     section#login > div#imagem {
@@ -48,6 +50,7 @@ TV and Extra Large Screens – 1201px and more
     }
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     
 }
