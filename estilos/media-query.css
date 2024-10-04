@@ -14,7 +14,11 @@ TV and Extra Large Screens – 1201px and more
     }
     section#login {
         width: 80vw;
-        height: 280px;
+        height: 80vh;
+        display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     }
     section#login > div#imagem {
         float: left;

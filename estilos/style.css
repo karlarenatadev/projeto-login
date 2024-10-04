@@ -39,7 +39,7 @@ section#login {
     height: 515px;
     border-radius: 20px;
     transform: translate(-50%,-50%);
-    transition: width .3s, height .3s;
+    transition: width .2s, height .2s;
     transition-timing-function: ease;
 }
 
